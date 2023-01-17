@@ -1,6 +1,8 @@
-package com.company;
+package com.company.polymorphism;
 
-public class Warrior extends Hero{
+import com.company.polymorphism.Hero;
+
+public class Warrior extends Hero {
 
     public Warrior(String name){
         super(name);

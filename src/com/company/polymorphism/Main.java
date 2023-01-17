@@ -1,4 +1,4 @@
-package com.company;
+package com.company.polymorphism;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+        
         Hero[] heroes = new Hero[3];
         heroes[0] = new Warrior("전사");
         heroes[1] = new Archer("궁수");
