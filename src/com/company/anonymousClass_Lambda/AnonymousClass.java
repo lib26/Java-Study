@@ -13,7 +13,7 @@ class Animal {
 public class AnonymousClass {
 
         public static void main(String[] args) {
-            // 익명 클래스의 선언과 동시에 객체 생성
+            // 선언과 동시에 객체 생성
             Animal dog = new Animal() {
                 @Override
                 public void bark() {
