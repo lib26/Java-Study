@@ -15,14 +15,13 @@ public class AnonymousClass {
         public static void main(String[] args) {
             // 익명 클래스의 선언과 동시에 객체 생성
             Animal dog = new Animal() {
-
                 @Override
                 public void bark() {
                     run(); // 익명 클래스에서 새로 정의한 메소드는 이렇게 내부에서만 사용가능
                     System.out.println("개가 짖습니다");
                 }
 
-                // 새로 정의한 메소드
+                // 자식에서 새로 정의한 메소드
                 public void run() {
                     System.out.println("달리기 ㄱㄱ싱");
                 }
