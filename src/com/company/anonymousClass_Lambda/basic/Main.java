@@ -1,4 +1,4 @@
-package com.company.anonymousClass_Lambda;
+package com.company.anonymousClass_Lambda.basic;
 
 public class Main {
 

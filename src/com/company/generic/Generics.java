@@ -1,5 +1,7 @@
 package com.company.generic;
 
+import java.util.ArrayList;
+
 class Soccer{
     public String team;
     Soccer(String team){
@@ -7,6 +9,7 @@ class Soccer{
     }
 }
 
+// 제네릭 클래스
 class Player<T, S, R>{
     public T team;
     public S name;
@@ -25,7 +28,6 @@ class Player<T, S, R>{
 public class Generics {
 
     public static void main(String[] args) {
-
         Player<Soccer, String, Integer> player = new Player<Soccer, String, Integer>(new Soccer("ManUtd"), "JSPark");
         System.out.println();
     }

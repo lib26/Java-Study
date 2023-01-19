@@ -37,7 +37,7 @@ public class Foo {
 
         // compose, andThen 함수 조합용 메서드
         Function<Integer,Integer> plus20 = i -> i+20;
-        Function<Integer,Integer> multiply2 = (i) -> i*2;
+        Function<Integer,Integer> multiply2 = i -> i*2;
         // compose : 곱한 값을 리턴해서 plus20에 입력값으로 넘긴다
         Function<Integer,Integer> multiply2AndPlus20 = plus20.compose(multiply2);
         System.out.println(multiply2AndPlus20.apply(1)); // 22

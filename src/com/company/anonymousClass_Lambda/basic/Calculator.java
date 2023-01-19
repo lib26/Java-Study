@@ -1,4 +1,4 @@
-package com.company.anonymousClass_Lambda;
+package com.company.anonymousClass_Lambda.basic;
 
 // 계산을 담당하는 클래스
 class Calculator {
