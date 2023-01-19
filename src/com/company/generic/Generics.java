@@ -7,7 +7,7 @@ class Soccer{
     }
 }
 
-class Player<T, S>{
+class Player<T, S, R>{
     public T team;
     public S name;
 
@@ -15,13 +15,18 @@ class Player<T, S>{
         this.team = team;
         this.name = name;
     }
+
+    public R method(R num){
+        return num;
+    }
+
 }
 
 public class Generics {
 
     public static void main(String[] args) {
 
-        Player<Soccer, String> player = new Player<Soccer, String>(new Soccer("ManUtd"), "JSPark");
+        Player<Soccer, String, Integer> player = new Player<Soccer, String, Integer>(new Soccer("ManUtd"), "JSPark");
         System.out.println();
     }
 }

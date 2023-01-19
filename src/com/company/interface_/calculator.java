@@ -1,8 +1,8 @@
 package com.company.interface_;
 
 public interface calculator {
-    public int plus(int pre, int post);
-    public int multi(int pre, int post);
+    public abstract int plus(int pre, int post);
+    public abstract int multi(int pre, int post);
 
     // 재정의 가능
     default int execPlus(int pre, int post){
