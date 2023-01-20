@@ -4,6 +4,8 @@ public class CalculatorImpl implements calculator {
 
     @Override
     public int plus(int pre, int post) {
+        System.out.println(interfaceNum);
+        execPlus(1,2);
         return 0;
     }
 
