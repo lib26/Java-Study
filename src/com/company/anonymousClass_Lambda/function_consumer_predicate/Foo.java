@@ -1,4 +1,4 @@
-package com.company.anonymousClass_Lambda.java8to11;
+package com.company.anonymousClass_Lambda.function_consumer_predicate;
 
 import java.util.function.Consumer;
 import java.util.function.Function;

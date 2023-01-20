@@ -14,6 +14,7 @@ public class stream {
 
         /*
         * map()은 중개 오퍼레이션 -> Stream 리턴
+        * map(Function 함수형 인터페이스)
         * collection()은 종료 오퍼레이션 -> Stream 리턴 X
         * 종료가 되야지만 모든 절차가 실행된다
         * */
